@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header-titulo">Food Store</h1>
+        <nav class="navHeader">
+            <p id="cartButton"><a href="../cart/cart.html">Carrito</a></p>
+            <button class="btn-logout" id="logoutButton">Cerrar sesión</button>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <input class="buscador" id="buscador" type="text" autocomplete="off" placeholder="Buscar producto por nombre">
+        <nav class="categorias" id="categorias"></nav>
+        <main class="grid" id="productos"></main>
+
+        <script type="module" src="/src/main.ts"></script>
+        <script type="module" src="./home.ts"></script>
+    </main>
+    <footer>
+        <hr>
+        <p>&copy;2026 Food Store. Todos los derechos reservados.</p>
+        <p>Contacto: <a href="mailto:info@foodstore.com">info@foodstore.com</a></p>
+    </footer>
+</body>
+
+</html>
