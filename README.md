@@ -103,3 +103,9 @@ El mecanismo es simple y se gestiona desde el código TypeScript en la carpeta `
 ## 🎥 Enlace Video
 
 [Ver video del proyecto](https://youtu.be/0MGV42DeOM0)
+
+---
+
+## 🔗 Repositorio
+
+[github.com/ianagunn/foodstore-Prog3-Parcial1](https://github.com/ianagunn/foodstore-Prog3-Parcial1)
